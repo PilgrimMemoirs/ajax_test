@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+    <h1> Pets </h1>
+    <div id="message"> </div>
+    <div id="pets"> </div>
+
+    <form action="https://petdibs.herokuapp.com/pets/12/dibs" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+        </div>
+        <div class="button">
+            <button type="submit">Send your message</button>
+        </div>
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./scripts.js"></script>
+  </body>
+</html>
